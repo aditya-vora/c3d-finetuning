@@ -1,0 +1,6 @@
+{
+  "name": "C3d-finetuning",
+  "tagline": "This repository contains the scripts to fine tune the currently available C3D model for video classification using Theano/Lasagne as well testing the new fine tuned model for new test videos.",
+  "body": "# C3D-finetuning\r\nThis repository contains the scripts to fine tune the currently available C3D model for video classification using Theano/Lasagne as well testing the new fine tuned model for new test videos.\r\n\r\n# Getting Started\r\n\r\nThe C3D pre-trained model that we use which can be loaded with Theano/Lasagne packages can be downloaded by executing the following line of code from the terminal: \r\n\r\n```\r\nwget -N https://data.vision.ee.ethz.ch/gyglim/C3D/c3d_model.pkl\r\n```\r\n\r\n### Prerequisites\r\n\r\nThe scripts assumes following packages are successfully installed on the system: \r\n\r\n* Theano\r\n* Lasagne\r\n* OpenCV \r\n* lmdb\r\n* pickle\r\n\r\n### References\r\n\r\n[1] Tran, Du, et al. \"Learning spatiotemporal features with 3d convolutional networks.\" 2015 IEEE International Conference on Computer Vision (ICCV). IEEE, 2015.\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
